@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text=" Red  "
+        android:background="#e83f6f"
+        android:textColor="@android:color/white"
+        android:paddingVertical="30dp"
+        android:paddingHorizontal="40dp" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/t1"
+        android:layout_above="@id/t1"
+        android:text="Yellow"
+        android:background="#ffbf00"
+        android:textColor="@android:color/white"
+        android:paddingVertical="30dp"
+        android:paddingHorizontal="40dp"/>
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/t1"
+        android:layout_below="@id/t1"
+        android:text=" Blue  "
+        android:background="#2274a5"
+        android:textColor="@android:color/white"
+        android:paddingVertical="30dp"
+        android:paddingHorizontal="40dp"/>
+
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/t1"
+        android:layout_below="@id/t1"
+        android:text="Green "
+        android:background="#32936f"
+        android:textColor="@android:color/white"
+        android:paddingVertical="30dp"
+        android:paddingHorizontal="40dp"/>
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/t1"
+        android:layout_above="@id/t1"
+        android:text="Purple"
+        android:background="#824670"
+        android:textColor="@android:color/white"
+        android:paddingVertical="30dp"
+        android:paddingHorizontal="40dp"/>
+
+
+</RelativeLayout>

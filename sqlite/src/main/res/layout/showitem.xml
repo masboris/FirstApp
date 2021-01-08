@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/s0"
+        android:textSize="16sp"
+        android:text=" ID "
+        android:layout_margin="1dp"
+        android:background="#FFFFFF"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="53dp"
+        />
+
+    <TextView
+        android:id="@+id/s1"
+        android:textSize="16sp"
+        android:text=" Username "
+        android:layout_margin="1dp"
+        android:background="#FFFFFF"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="120dp"
+        />
+
+    <TextView
+        android:id="@+id/s2"
+        android:textSize="16sp"
+        android:text="Pass "
+        android:layout_margin="1dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="110dp"
+        />
+
+    <TextView
+        android:id="@+id/s3"
+        android:textSize="16sp"
+        android:text="Age"
+        android:layout_margin="1dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="70dp"
+        />
+
+
+</TableRow>

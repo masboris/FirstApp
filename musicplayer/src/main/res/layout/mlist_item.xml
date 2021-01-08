@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    >
+
+    <ImageView
+        android:id="@+id/music_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@mipmap/music"/>
+
+    <TextView
+        android:id="@+id/music_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="music name"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/music_length"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="music_length"
+        android:textSize="20sp"/>
+
+
+
+
+</LinearLayout>

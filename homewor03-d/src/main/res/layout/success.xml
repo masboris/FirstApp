@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@mipmap/bg">
+
+
+    <ImageView
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@mipmap/success"
+        />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_height="wrap_content"
+    android:text="Register Successful"
+    android:layout_gravity="center"
+    android:textColor="@android:color/white"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="Your Username : "
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:text="Username"
+        android:background="@mipmap/bgtext"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="Your Password : "
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:background="@mipmap/bgtext"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:layout_gravity="center"/>
+
+<Button
+    android:id="@+id/but_back"
+    android:layout_marginTop="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@mipmap/loginbg"
+    android:text="Back"/>
+
+
+</LinearLayout>

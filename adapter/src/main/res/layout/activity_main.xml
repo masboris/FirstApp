@@ -1,0 +1,24 @@
+<LinearLayout android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="50dp">
+
+    <Button
+        android:id="@+id/b01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City List"/>
+
+    <Button
+        android:id="@+id/b02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name List"/>
+
+    <Button
+        android:id="@+id/b03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User List"/>
+
+</LinearLayout>

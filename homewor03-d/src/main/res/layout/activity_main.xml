@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg">
+
+
+    <ImageView
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:src="@mipmap/image01"
+        />
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Username"
+        android:layout_marginHorizontal="50dp"
+        android:background="@mipmap/bgtext"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_marginHorizontal="50dp"
+        android:background="@mipmap/bgtext"
+        android:padding="10dp"
+        />
+
+        <Button
+            android:id="@+id/but_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="50dp"
+            android:text="Register"
+            android:layout_gravity="center"
+
+            android:background="@mipmap/loginbg"
+            />
+
+
+
+
+</LinearLayout>
+

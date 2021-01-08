@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string-array name="city">
+
+    <item> Nanjing </item>
+    <item> Beijing </item>
+    <item> Jakarta </item>
+    <item> Yogyakarta </item>
+    <item> Shanghai </item>
+    <item> Bali </item>
+
+
+</string-array>
+
+</resources>
